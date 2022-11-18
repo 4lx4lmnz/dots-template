@@ -3,18 +3,18 @@
 This template provides a way to quickly get up and running using the `dots`
 [dotfile management utility](https://github.com/evanpurkhiser/dots).
 
-### Method 1: Clone Me (Recomended)
+### Method 1: Clone Me (Recommended)
 
 If you would like to be able to pull in any changes made to this template, you
 may use this as the base for your dotfiles repository.
 
 Simply clone this repository `git clone https://github.com/evanpurkhiser/dots-template`
 
-### Method 2: Initalize empty
+### Method 2: Initialize empty
 
 If you would prefer to start with a clean history and don't care or have the
 need to pull in any updates to this template repository then you can instead
-initalize a new repository with the contents of this repository.
+initialize a new repository with the contents of this repository.
 
 ```sh
 $ git clone --depth 1 https://github.com/evanpurkhiser/dots-template
@@ -36,7 +36,7 @@ $ git init dots-template
 2. Organize your dotfiles into their respective configuration groups.
 
 3. Execute `source init-dots` to install the dots manager and initialize your
-   dotfiles into ther directories.
+   dotfiles into their directories.
 
 4. Execute `dots groups set [list of groups here]` then `dots install`.
 
