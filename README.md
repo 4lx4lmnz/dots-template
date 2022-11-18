@@ -1,14 +1,14 @@
 ## Dots Template
 
 This template provides a way to quickly get up and running using the `dots`
-[dotfile management utility](https://github.com/evanpurkhiser/dots).
+[dotfile management utility](https://github.com/4lx4lmnz/dots/tree/releases/1.x).
 
 ### Method 1: Clone Me (Recommended)
 
 If you would like to be able to pull in any changes made to this template, you
 may use this as the base for your dotfiles repository.
 
-Simply clone this repository `git clone https://github.com/evanpurkhiser/dots-template`
+Simply clone this repository `git clone https://github.com/4lx4lmnz/dots-template`
 
 ### Method 2: Initialize empty
 
@@ -17,7 +17,7 @@ need to pull in any updates to this template repository then you can instead
 initialize a new repository with the contents of this repository.
 
 ```sh
-$ git clone --depth 1 https://github.com/evanpurkhiser/dots-template
+$ git clone --depth 1 https://github.com/4lx4lmnz/dots-template
 $ rm -rf dots-template/.git
 $ git init dots-template
 ```
@@ -43,7 +43,7 @@ $ git init dots-template
 5. Enjoy your organized dotfiles!
 
 While not required, it's recommended to read through the [dots
-README](https://github.com/evanpurkhiser/dots/blob/main/README.md).
+README](https://github.com/4lx4lmnz/dots/blob/releases/1.x/README.md).
 
 ---
 
