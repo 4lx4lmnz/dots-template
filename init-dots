@@ -11,8 +11,7 @@
 [[ $_ == $0 ]] && echo "Please source me!" && exit 1
 
 # Clone the dots manager utility
-if [[ ! -d "$HOME/.local/lib/dots" ]]
-then
+if [[ ! -d "$HOME/.local/lib/dots" ]]; then
 	echo -e "\033[0;32m==>\033[0m Installing dots managment utility"
 	git clone --branch releases/1.x -q https://github.com/4lx4lmnz/dots "$HOME/.local/lib/dots"
 fi
